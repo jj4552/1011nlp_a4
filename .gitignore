@@ -1,0 +1,10 @@
+.venv*/
+__pycache__/
+*.pyc
+*.pt
+*.bin
+part1/out/
+part1/out_augmented/
+part1/checkpoints/
+part2/checkpoints/
+logs/
