@@ -1,0 +1,9 @@
+# For the existing scratch Python 3.11 T5 venv
+numpy==1.26.4
+torch==2.1.2
+transformers==4.40.0
+tokenizers==0.19.1
+huggingface-hub==0.23.2
+sentencepiece==0.2.0
+safetensors==0.4.3
+tqdm==4.66.4

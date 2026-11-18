@@ -1,10 +1,23 @@
+# Do not commit model weights, checkpoint files, data archives, or runtime secrets
 .venv*/
 __pycache__/
-*.pyc
-*.pt
-*.bin
+*.py[cod]
+logs/*
+checkpoints/
 part1/out/
 part1/out_augmented/
 part1/checkpoints/
 part2/checkpoints/
-logs/
+part2/data/*
+part2/records/*
+part2/results/*
+*.pt
+*.bin
+*.safetensors
+*.tar
+*.tar.gz
+*.pkl
+.DS_Store
+!part2/data/.gitkeep
+!part2/records/.gitkeep
+!part2/results/.gitkeep

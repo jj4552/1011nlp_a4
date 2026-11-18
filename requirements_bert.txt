@@ -1,0 +1,11 @@
+# For the existing scratch Python 3.11 BERT venv
+numpy==1.26.4
+torch==2.1.2
+transformers==4.40.0
+datasets==2.19.2
+pyarrow==15.0.2
+fsspec==2023.6.0
+huggingface-hub==0.23.2
+tokenizers==0.19.1
+safetensors==0.4.3
+tqdm==4.66.4
